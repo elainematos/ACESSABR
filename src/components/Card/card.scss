@@ -10,6 +10,7 @@
         border-radius: 1rem;
         box-sizing: border-box;
         height: 222px;
+        overflow: hidden;
         width: 100%;
 
     }
@@ -24,6 +25,7 @@
     }
     p {
         font-size: 1.8rem;
+        height: 10rem;
         line-height: 2.1rem;
         margin-bottom: 1rem;
     }
@@ -50,5 +52,10 @@
             }
         }
 
+    }
+    &__button {
+        display: inline-block;
+        text-decoration: none;
+        margin: 2rem auto 0;
     }
 }

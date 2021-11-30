@@ -1,27 +1,51 @@
-import React, { useState } from 'react'
-import './styles.scss'
-import imageDestack from '../../images/imagem-destaque.png'
-import Pills from '../../components/pills'
+import React, { useContext, useEffect, useState } from 'react';
+import './styles.scss';
+import imageDestack from '../../images/imagem-destaque.png';
+import { FilterContext } from '../../contexts/FilterContext';
+import Pills from '../../components/pills';
+import { useParams } from 'react-router';
+import { LocationContext } from '../../contexts/LocationContext';
 
 const PLACES = [
     'Praça',
     'Parque',
     'Igreja',
     'Hotel',
-    'Restaurante',
+    'Torre',
     'Zoologico',
-    'Farmácia',
-    'Loja',
-    'Aquário',
+    'Museu',
+    'Teatro',
+    'Memorial',
+    'Todos'
 ]
 
 
 const Home = () => {
-    const [selectedPill, setSelectedPill] = useState('')
+    const {city, state } = useParams()
+    const {setCity,setState } = useContext(LocationContext)
+    //const [selectedPill, setSelectedPill] = useState('')
+    const {filteredPlace,setFilteredPlace} = useContext(FilterContext)
+
+    const handleFilterPlace = (item) => {
+        if(item !== filteredPlace) {
+            setFilteredPlace(item)
+            return
+        }
+        if (item === 'Todos')
+            setFilteredPlace('')
+            
+    }
+
+    //const {setCity, setState } = useContext(LocationContext)
+
+    useEffect(() => {
+        setCity(city)
+        setState(state)
+    }, [city, state])
     return(
         <main id="main-content" className="home__container">
             <div className="home__col">
-                <h1 className="home__title">Brasília para todos</h1>
+                <h1 className="home__title">{city} Brasília para todos</h1>
                 <div className="home__image home__image--destack hide-desktop">
                     <img src={imageDestack} alt="Imagem destaque cadeirante"/>
                 </div>
@@ -33,8 +57,8 @@ const Home = () => {
                         PLACES.map((item) => (
                         <Pills
                         local={item}
-                        selected={selectedPill === item}
-                        onClick={ () => setSelectedPill(item)}
+                        selected={filteredPlace === item}
+                        onClick={ () => handleFilterPlace(item)}
                     />
                         ))
                     },

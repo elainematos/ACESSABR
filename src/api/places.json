@@ -1,0 +1,200 @@
+{
+    "places": [
+        {
+            "id": 1,
+            "name": "Catedral",
+            "image": "/places/catedral.jpg",
+            "category": "Igrejas",
+            "description":"A Catedral Metropolitana - Nossa Senhora Aparecida, mais conhecida como Catedral de Brasília, é um templo católico brasileiro, na qual se encontra a cátedra da Arquidiocese de Brasília, localizada na capital federal, ao sul da S1, no Eixo Monumental, região da Esplanada dos Ministérios. Fonte:Wikipédia",
+            "link": "https://catedral.org.br/",
+            "location": {
+                "lat":"-15 ° 47 '32,39 S",
+                "long": " -47 ° 52' 19,19 O"
+
+            },           
+        
+            "facilities": [
+                {"item": 1, "status": true},
+                {"item": 2, "status": false },
+                {"item": 3, "status": true },
+                {"item": 4, "status": true },
+                {"item": 5, "status": true },
+                {"item": 6, "status": true },
+                {"item": 7, "status": true },
+                {"item": 8, "status": true },
+                {"item": 9, "status": true },
+                {"item": 10, "status": false }
+            ]
+        },
+
+        
+
+        {
+            "id": 2,
+            "name": "Memorial JK",
+            "image": "/places/memorial-jk.jpg",
+            "category": "Memorial",
+            "description":"O Memorial JK é um museu, mausoléu e centro cultural brasileiro construído para homenagear o 21º presidente do Brasil, Juscelino Kubistchek de Oliveira. Ele está localizado no canteiro central do Eixo Monumental, em Brasília, na Zona Cívico-Administrativa, na Praça do Cruzeiro, a região mais alta do Plano Piloto. Fonte:Wikipédia",
+            "link": "http://www.memorialjk.com.br/",
+            "location": {
+                "lat":" -15.8014 / 15° 48' 5'' Sul",
+                "long": "-47.8836 / 47° 53' 1'' Oeste"
+            }, 
+        
+
+            "facilities": [
+                {"item": 1, "status": true},
+                {"item": 2, "status": true },
+                {"item": 3, "status": true },
+                {"item": 4, "status": true },
+                {"item": 5, "status": true },
+                {"item": 6, "status": true },
+                {"item": 7, "status": true },
+                {"item": 8, "status": true },
+                {"item": 9, "status": true },
+                {"item": 10, "status": true }
+            ]
+        },
+      
+
+        {
+            "id": 3,
+            "name": "Memorial dos povos Indígenas",
+            "image": "/places/memorial-povos-indigenas.jpg",
+            "category": "Memorial",
+            "description": "O Memorial dos Povos Indígenas é um museu, centro cultural e instituição de pesquisa brasileiro, dedicado à cultura indígena brasileira. Fica localizado em Brasília, na Zona Cívico-Administrativa do Eixo Monumental, entre o Memorial JK e a Praça do Buriti, em frente a Câmara Legislativa do Distrito Federal. Fonte:Wikipédia",
+            "link": "https://www.cultura.df.gov.br/memorial-dos-povos-indigenas/",
+            "location": {
+                "lat":" -15.7848",
+                "long": "-47.9114"
+            }, 
+        
+
+            "facilities": [
+                {"item": 1, "status": true},
+                {"item": 2, "status": false },
+                {"item": 3, "status": true },
+                {"item": 4, "status": false },
+                {"item": 5, "status": true },
+                {"item": 6, "status": true },
+                {"item": 7, "status": true },
+                {"item": 8, "status": true },
+                {"item": 9, "status": true },
+                {"item": 10, "status": false }
+            ]
+        },
+        
+
+        {
+            "id": 4,
+            "name": "Museu da República",
+            "image": "/places/museu-republica.jpg",
+            "category": "Museu",
+            "description": "O Museu Nacional da República é um museu brasileiro criado e administrado pelo governo do Distrito Federal, Brasil. O museu e a Biblioteca Nacional de Brasília formam o Complexo Cultural da República João Herculino. Fonte:Wikipédia",
+            "link": "https://www.cultura.df.gov.br/museu-nacional-republica/",
+            "location": {
+                "lat":"-22.925715",
+                "long": "-43.176233"
+            }, 
+        
+            "facilities": [
+                {"item": 1, "status": true},
+                {"item": 2, "status": false },
+                {"item": 3, "status": true },
+                {"item": 4, "status": false },
+                {"item": 5, "status": true },
+                {"item": 6, "status": true },
+                {"item": 7, "status": true },
+                {"item": 8, "status": true },
+                {"item": 9, "status": true },
+                {"item": 10, "status": false }
+            ]
+        },
+        
+
+        {
+            "id": 5,
+            "name": "Teatro Nacional",
+            "image": "/places/teatro-nacional.jpg",
+            "category": "Teatro",
+            "description": "O Teatro Nacional Cláudio Santoro é um teatro localizado na capital do Brasil, Brasília. Localiza-se na Via N2 do Eixo Monumental, no Setor Cultural Norte, na Asa Norte do Plano Piloto. Possui estrutura com forma de pirâmide irregular. Fonte:Wikipédia",
+            "link": "https://www.cultura.df.gov.br/teatro-nacional-claudio-santoro/",            
+            "location": {
+                "lat":" -23.538047",
+                "long": "-46.6139117"
+            }, 
+        
+
+            "facilities": [
+                {"item": 1, "status": false},
+                {"item": 2, "status": false },
+                {"item": 3, "status": false },
+                {"item": 4, "status": false },
+                {"item": 5, "status": false },
+                {"item": 6, "status": false },
+                {"item": 7, "status": false },
+                {"item": 8, "status": false },
+                {"item": 9, "status": false },
+                {"item": 10, "status": false }
+            ]
+        },    
+        
+
+        {
+            "id": 6,
+            "name": "Torre Digital",
+            "image": "/places/Torre-tv-digital.jpg",
+            "category": "Torres",
+            "description": "A Torre de TV Digital de Brasília é uma torre de transmissão televisiva, projetada para transmitir o sinal de TV Digital para todo Distrito Federal e algumas cidades do Entorno. Fonte:Wikipédia",
+            "link": "https://www.df.gov.br/torre-de-tv-digital/",
+            "location": {
+                "lat":"-15.699244",
+                "long": "-47.829556"
+            }, 
+        
+            "facilities": [
+                {"item": 1, "status": true },
+                {"item": 2, "status": false },
+                {"item": 3, "status": true },
+                {"item": 4, "status": true },
+                {"item": 5, "status": true },
+                {"item": 6, "status": true },
+                {"item": 7, "status": true },
+                {"item": 8, "status": true },
+                {"item": 9, "status": true },
+                {"item": 10, "status": false }              
+                
+            ]
+
+        },    
+
+
+        {
+            "id": 7,
+            "name": "Torre de TV",
+            "image": "/places/Torre-tv.jpg",
+            "category": "Torres",
+            "description": "A Torre de TV de Brasília é uma torre de transmissão radiofônica e televisiva construída em Brasília e inaugurada em 1967 com 224 metros de altura. Fonte:Wikipédia",
+            "link": "https://www.turismo.df.gov.br/torre-de-tv/",
+            "location": {
+                "lat":"-15,7906",
+                "long": "-47,8928"
+            }, 
+       
+            "facilities": [
+                {"item": 1, "status": true},
+                {"item": 2, "status": false },
+                {"item": 3, "status": true },
+                {"item": 4, "status": true },
+                {"item": 5, "status": true },
+                {"item": 6, "status": true },
+                {"item": 7, "status": true },
+                {"item": 8, "status": true },
+                {"item": 9, "status": true },
+                {"item": 10, "status": false }
+            ]
+        }
+        
+    ]
+}
+
